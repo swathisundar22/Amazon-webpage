@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.top-nav {
+    height: 60px;
+    background-color: #131313;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    width: 110px;
+    padding-top: 12px;
+}
+
+.nav-logo img {
+    width: 100%;
+}
+
+.border {
+    border: 1px solid transparent;
+    padding: 10px 6px;
+}
+
+.border:hover {
+    border: 1px solid #fff;
+}
+
+.location-icon {
+    display: flex;
+}
+
+.location-first {
+    margin-left: 12px;
+    color: #ccc;
+    font-size: 15px;
+}
+
+.location-second {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 600px;
+    background-color: black;
+    border: 0;
+    outline: none;
+}
+
+.nav-search select {
+    width: 50px;
+    text-align: center;
+    font-size: 1vw;
+    border: none;
+    outline: none;
+    background-color: #ececec;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.search-input {
+    width: 100%;
+    border: 0;
+    outline: none;
+    font-size: 1.2vw;
+    padding-left: 5px;
+}
+
+.search-icon {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 1.3vw;
+    background-color: rgb(243, 174, 46);
+}
+
+.nav-lgu {
+    width: auto;
+}
+
+.lgu-select {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    width: 42px;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.lgu-select img {
+    width: 20px;
+}
+
+.first-signin {
+    color: #ccc;
+    font-size: 0.9vw;
+}
+
+.second-signin {
+    font-size: 1vw;
+}
+
+.nav-cart {
+    display: flex;
+    align-items: center;
+}
+
+.nav-cart i {
+    font-size: 2.2vw;
+    margin-right: 5px;
+}
+
+.nav-cart p {
+    font-size: 1vw;
+}
+
+.second-sigin .category {
+    background-color: black;
+}
+
+.bottom-nav {
+    background-color: #232f3e;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 5px 20px;
+    width: 100%;
+}
+
+.bnav-left {
+    display: flex;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+}
+
+.bnav-left .all {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.bnav-left .all i {
+    font-size: 1.5vw;
+    margin-right: 5px;
+}
+
+.bnav-left .all p {
+    font-size: 1vw;
+}
+
+.bnav-left .options a {
+    
+    font-size: 1.3vw;
+    margin: 0 8px;
+    outline: none;
+    padding: 5px;
+    white-space: nowrap; 
+}
+
+.bnav-left .options a:focus {
+    border: 1px solid #fff;
+}
+
+.bnav-right {
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+.bnav-right img {
+    width: 110%;
+    background-size: cover; 
+}
+
+.bnav-right .swa {
+    position: absolute;
+    width: 5%;
+    height: 10px;
+    margin-left: 0%;
+}
+
+.content {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-size: cover;
+background-position: center;
+position: relative;
+top: -95px; /* Adjust this value to move the image up */
+}
+
+.content img {
+width: 100%;
+height: auto;
+max-height: 70vh;
+position: relative;
+}
+
+.shop-section {
+display: flex;
+justify-content: space-evenly;
+position: absolute;
+top: 70%; 
+width: 100%;
+background-color: rgba(255, 255, 255, 0.8); 
+padding: 10px 0; 
+}
+
+.box {
+border: 2px solid black;
+height: 400px;
+width: 23%;
+background-color: white;
+display: flex;
+flex-direction: column;
+
+padding: 10px; 
+box-sizing: border-box; 
+}
+
+.box-img {
+width: 100%;
+height: 300px;
+background-size: cover;
+background-position: center;
+}
